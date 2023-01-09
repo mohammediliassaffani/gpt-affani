@@ -1,15 +1,30 @@
 import React from "react";
-import { Articale, Brand, Cta, Navbar, Feature } from "./components";
+import {
+  Footer,
+  Blog,
+  Possibility,
+  Features,
+  Header,
+  WhatGPT,
+} from "./containers";
+import { Brand, Cta, Navbar } from "./components";
+
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Cta />
-      <Articale />
-      <Feature />
+      <div className="gradient__bg">
+        <Navbar />
+        <Header />
+      </div>
       <Brand />
+      <WhatGPT />
+      <Features />
+      <Possibility />
+      <Cta />
+      <Blog />
+      <Footer />
     </div>
   );
 }
