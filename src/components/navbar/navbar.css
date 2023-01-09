@@ -18,3 +18,38 @@
   width: 62.56px;
   height: 16.02px;
 }
+.gpt__navbar-links-container {
+  display: flex;
+  flex-direction: row;
+}
+.gpt__navbar-sing {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.gpt__navbar-links-container p,
+.gpt__navbar-sing p,
+.gpt__navbar-menu-container p {
+  color: #fff;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: capitalize;
+
+  margin: 0 1rem;
+  cursor: pointer;
+}
+.gpt__navbar-sing button,
+.gpt__navbar-menu-container {
+  padding: 0.5rem 1rem;
+  color: #fff;
+  background: #ff4820;
+  border-radius: 5px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  border: none;
+  outline: none;
+}
