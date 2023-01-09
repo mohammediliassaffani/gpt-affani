@@ -1,8 +1,5 @@
-import Articale from "./components/articale/Articale";
-import Brand from "./components/brand/Brand";
-import Cta from "./components/cta/Cta";
-import Feature from "./components/feature/Feature";
-import Navbar from "./components/navbar/Navbar";
+import React from "react";
+import { Articale, Brand, Cta, Navbar, Feature } from "./components";
 import "./App.css";
 
 function App() {
@@ -12,7 +9,7 @@ function App() {
       <Cta />
       <Articale />
       <Feature />
-      <Brand /><
+      <Brand />
     </div>
   );
 }
