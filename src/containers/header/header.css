@@ -32,9 +32,54 @@
   display: flex;
 }
 .gpt__header-content__input input {
-  background-color: var();
-  width: 630px;
-  height: 73px;
-  left: 138px;
-  top: 624px;
+  flex: 2;
+  min-height: 50px;
+  font-family: var(--font-family);
+  font-size: 20px;
+  line-height: 27px;
+  border: 2px solid var(--color-footer);
+  background: var(--color-footer);
+  border-radius: 5 px 0px 0px 5px;
+  padding: 0 1rem;
+  outline: none;
+  color: #fff;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.gpt__header-content__input button {
+  flex: 0.6;
+  width: 100%;
+  min-height: 50px;
+  font-family: var(--font-family);
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: bold;
+  padding: 0 1rem;
+  outline: none;
+  color: #fff;
+  background: #ff4820;
+  border-radius: 5 px 0px 0px 5px;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.gpt__header-content__people {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 2rem;
+}
+.gpt__header-content__people img {
+  width: 181.79px;
+  height: 38px;
+}
+.gpt__header-content__people p {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 38px;
+  color: #ffffff;
 }
