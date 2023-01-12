@@ -94,4 +94,26 @@
   .gpt__navbar-links_container {
     display: none;
   }
+  .gpt__navbar-menu {
+    display: flex;
+  }
+}
+@media screen and (max-width: 700px) {
+  .gpt__navbar {
+    padding: 2rem 4rem;
+  }
+}
+@media screen and (max-width: 550px) {
+  .gpt__navbar {
+    padding: 2rem;
+  }
+  .gpt__navbar-sing {
+    display: none;
+  }
+  .gpt__navbar-menu_container {
+    top: 20px;
+  }
+  .gpt__navbar-menu_container-links-sing {
+    display: block;
+  }
 }
