@@ -1,10 +1,25 @@
 import React from "react";
+import { google, slack, shopify, dropbox, atlassian } from "./Imports";
 import "./brand.css";
 
 function brand() {
   return (
-    <div>
-      <h2>article</h2>
+    <div className="gpt__brand section__padding">
+      <div>
+        <img src={google} alt="google" />
+      </div>
+      <div>
+        <img src={slack} alt="slack" />
+      </div>
+      <div>
+        <img src={shopify} alt="shopify" />
+      </div>
+      <div>
+        <img src={dropbox} alt="dropbox" />
+      </div>
+      <div>
+        <img src={atlassian} alt="atlassian" />
+      </div>
     </div>
   );
 }
