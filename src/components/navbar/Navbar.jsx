@@ -4,6 +4,7 @@ import { RiMenu3line, RiCloseLin } from "react-icons/ri";
 import logo from "../../assets/logo.svg";
 import "./navbar.css";
 
+const navbar = ([menu, setMenu] = useState(""));
 function Navbar() {
   return (
     <div className="gpt__navbar">
@@ -32,6 +33,7 @@ function Navbar() {
           <p>Sing in</p>
           <button type="button">Sing Up</button>
         </div>
+        <div className="gpt__navbar-menu"></div>
       </div>
     </div>
   );
