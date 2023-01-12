@@ -11,10 +11,8 @@ function Header() {
           Let’s Build Something amazing with GPT-3 OpenAI
         </h1>
         <p>
-          Yet bed any for travelling assistance indulgence unpleasing. Not
-          thoughts all exercise blessing. Indulgence way everything joy
-          alteration boisterous the attachment. Party we years to order allow
-          asked of.
+          iliass affani mohammed love ya had l bata zwina fnikicha kanbghik ana
+          haha mal9it mandir gol naktab cha3r okda haha
         </p>
         <div className="gpt__header-content__input">
           <input type="email" placeholder="your email adress" />
