@@ -31,7 +31,7 @@ function Navbar() {
         <div className="gpt__navbar-links-logo">
           <img src={logo} alt="logo" />
         </div>
-        <div className="gpt__navbar-links-container">
+        <div className="gpt__navbar-links_container">
           <LinksMenu />
         </div>
       </div>
@@ -50,7 +50,7 @@ function Navbar() {
           <div className="gpt__navbar-menu_container scale-yp-centere">
             <div className="gpt__navbar-menu_links">
               <LinksMenu />
-              <div className="gpt__navbar-menu-container-links-sing">
+              <div className="gpt__navbar-menu_container-links-sing">
                 <p>Sing in</p>
                 <button type="button">Sing Up</button>
               </div>
