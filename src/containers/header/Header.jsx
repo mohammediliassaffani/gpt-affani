@@ -8,7 +8,7 @@ function Header() {
     <div className="gpt__header section__padding" id="home">
       <div className="gpt__header-content">
         <h1 className="gradient__text">
-          Let’s Build Something amazing with GPT-3 OpenAI
+          nti lhob hhh test test kanbghik test love fatim zahra
         </h1>
         <p>
           iliass affani mohammed love ya had l bata zwina fnikicha kanbghik ana
