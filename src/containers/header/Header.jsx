@@ -20,13 +20,13 @@ function Header() {
           <input type="email" placeholder="your email adress" />
           <button type="button"> get started</button>
         </div>
-        <div className="gpt__header-content_people">
+        <div className="gpt__header-content__people">
           <img src={people} alt="people" />
           <p>1,600 people requested access a visit in last 24 hours</p>
         </div>
-        {/* <div className="gpt__header-img">
+        <div className="gpt__header-image">
           <img src={ai} alt="" />
-        </div> */}
+        </div>
       </div>
     </div>
   );
