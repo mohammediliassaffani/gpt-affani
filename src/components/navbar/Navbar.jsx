@@ -1,11 +1,12 @@
 import React from "react";
 import { useState } from "react";
-import { RiMenu3line, RiCloseLin } from "react-icons/ri";
+import LinksMenu from "./LinksMenu";
+import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import logo from "../../assets/logo.svg";
 import "./navbar.css";
 
-const navbar = ([menu, setMenu] = useState(false));
 function Navbar() {
+  const [menu, setMenu] = useState(false);
   return (
     <div className="gpt__navbar">
       <div className="gpt__navbar-links">
@@ -13,27 +14,30 @@ function Navbar() {
           <img src={logo} alt="logo" />
         </div>
         <div className="gpt__navbar-links-container">
-          <p>
-            <a href="#home"> Home </a>
-          </p>
-          <p>
-            <a href="#wgpt"> What is gpt </a>
-          </p>
-          <p>
-            <a href="#possibility"> OpenIA </a>
-          </p>
-          <p>
-            <a href="#features"> Case Studies </a>
-          </p>
-          <p>
-            <a href="#blog"> Library </a>
-          </p>
+          <LinksMenu />
         </div>
         <div className="gpt__navbar-sing">
           <p>Sing in</p>
           <button type="button">Sing Up</button>
         </div>
-        <div className="gpt__navbar-menu"></div>
+        <div className="gpt__navbar-menu">
+          {menu ? (
+            <RiCloseLine
+              color="#fff"
+              size={27}
+              onClick={() => setMenu(false)}
+            />
+          ) : (
+            <RiMenu3Line color="#fff" size={27} onClick={() => setMenu(true)} />
+          )}{" "}
+          {menu && (
+            <div className="gpt__navbar-menu_container scale-yp-centere">
+              <div className="gpt__navbar-menu_links">
+                <LinksMenu />
+              </div>
+            </div>
+          )}
+        </div>
       </div>
     </div>
   );
