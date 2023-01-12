@@ -4,7 +4,7 @@ import { RiMenu3line, RiCloseLin } from "react-icons/ri";
 import logo from "../../assets/logo.svg";
 import "./navbar.css";
 
-const navbar = ([menu, setMenu] = useState(""));
+const navbar = ([menu, setMenu] = useState(false));
 function Navbar() {
   return (
     <div className="gpt__navbar">
