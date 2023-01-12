@@ -50,6 +50,10 @@ function Navbar() {
           <div className="gpt__navbar-menu_container scale-yp-centere">
             <div className="gpt__navbar-menu_links">
               <LinksMenu />
+              <div className="gpt__navbar-menu-container-links-sing">
+                <p>Sing in</p>
+                <button type="button">Sing Up</button>
+              </div>
             </div>
           </div>
         )}
