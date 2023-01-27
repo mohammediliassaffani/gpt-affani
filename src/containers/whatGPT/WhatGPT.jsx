@@ -1,12 +1,15 @@
 import React from "react";
 import "./whatGPT.css";
+import Feature from "../../components/feature/Feature";
 
-function WhatGPT() {
+const WhatGPT = () => {
   return (
-    <div>
-      <h1>WhatGPT</h1>
+    <div className="gpt__whatgpt section__margin" id="wgpt">
+      <div className="gpt__whatgpt-feature">
+        <Feature />
+      </div>
     </div>
   );
-}
+};
 
 export default WhatGPT;
