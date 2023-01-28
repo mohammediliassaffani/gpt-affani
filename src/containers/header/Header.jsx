@@ -7,10 +7,14 @@ function Header() {
   return (
     <div className="gpt__header section__padding" id="home">
       <div className="gpt__header-content">
-        <h1 className="gradient__text">tesssssssssssssst tesssssssssssssst</h1>
+        <h1 className="gradient__text">
+          Let’s Build Something amazing with GPT-3 OpenAI
+        </h1>
         <p>
-          iliass affani mohammed love ya had l bata zwina fnikicha kanbghik ana
-          haha mal9it mandir gol naktab cha3r okda haha
+          Yet bed any for travelling assistance indulgence unpleasing. Not
+          thoughts all exercise blessing. Indulgence way everything joy
+          alteration boisterous the attachment. Party we years to order allow
+          asked of.
         </p>
         <div className="gpt__header-content__input">
           <input type="email" placeholder="your email adress" />
