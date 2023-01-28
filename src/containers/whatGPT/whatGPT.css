@@ -50,3 +50,23 @@
 .gpt__whatgpt-feature {
   display: flex;
 }
+.gpt__whatgpt-feature .gpt__whatgpt__features-container__feature {
+  margin: 0;
+}
+.gpt__whatgpt-feature .gpt__whatgpt__features-container-text {
+  max-width: 700px;
+}
+.gpt3__whatgpt-heading {
+  display: flex;
+  font-display: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 4rem 0 2rem;
+}
+.gpt3__whatgpt-heading h1 {
+  font-family: var(--font-family);
+  font-size: 34px;
+  font-weight: 800;
+  max-width: 510px;
+  line-height: 45px;
+}
