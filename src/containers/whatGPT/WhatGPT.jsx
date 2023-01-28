@@ -14,7 +14,11 @@ const WhatGPT = () => {
         </h1>
         <p>Explore The Library</p>
       </div>
-      <div className="gpt__whatgpt-container"></div>
+      <div className="gpt__whatgpt-container">
+        <Feature />
+        <Feature />
+        <Feature />
+      </div>
     </div>
   );
 };
