@@ -5,7 +5,9 @@ const Feature = ({ title, text }) => {
   return (
     <div className="gpt__features-container__feature ">
       <div className="gpt__features-container__feature-title">
-        <h1> {title} </h1>
+        <div>
+          <h1> {title} </h1>
+        </div>
       </div>
       <div className="gpt__features-container_feature-text">
         <p> {text} </p>
