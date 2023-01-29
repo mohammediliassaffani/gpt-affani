@@ -1,84 +1,76 @@
-.gpt__cta {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: row;
-
-  padding: 2rem;
-  margin: 4rem;
-  border-radius: 1rem;
-  background: var(--gradient-bar);
-}
-
-.gpt__cta-content {
+.gpt__blog {
   display: flex;
   flex-direction: column;
+}
 
+.gpt__blog-heading {
+  width: 100%;
   text-align: left;
-  color: #fff;
+
+  margin-bottom: 5rem;
 }
 
-.gpt__cta-content p {
+.gpt__blog-heading h1 {
+  font-size: 62px;
+  line-height: 75px;
   font-family: var(--font-family);
-  font-size: 12px;
-  line-height: 30px;
-  font-weight: 500;
-}
-
-.gpt__cta-content h3 {
-  font-family: var(--font-family);
-  font-size: 24px;
-  line-height: 45px;
   font-weight: 800;
 }
 
-.gpt__cta-btn {
+.gpt__blog-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
-
-  margin-left: 2rem;
+  flex-direction: row;
 }
 
-.gpt__cta-btn button {
-  background: #000;
-  color: #fff;
-  font-family: var(--font-family);
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 30px;
-  padding: 0.5rem 1rem;
-  border-radius: 2rem;
-
-  border: none;
-  outline: none;
-  cursor: pointer;
-  min-width: 150px;
+.gpt__blog-container_groupA {
+  flex: 0.75;
+  margin-right: 2rem;
 }
 
-@media screen and (max-width: 650px) {
-  .gpt__cta {
-    flex-direction: column;
+.gpt__blog-container_groupB {
+  flex: 1;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+}
+
+@media screen and (max-width: 990px) {
+  .gpt__blog-container {
+    flex-direction: column-reverse;
   }
 
-  .gpt__cta-btn {
-    margin: 2rem 0 0;
+  .gpt__blog-container_groupA {
+    margin: 2rem 0;
+  }
+
+  .gpt__blog-container_groupA .gpt__blog-container_article {
+    width: 48%;
+  }
+
+  .gpt__blog-container_groupA .gpt__blog-container_article-image {
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .gpt__blog-container_groupB {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .gpt__blog-container_groupA .gpt__blog-container_article {
+    width: 100%;
+  }
+
+  .gpt__blog-heading h1 {
+    font-size: 46px;
+    line-height: 52px;
   }
 }
 
 @media screen and (max-width: 550px) {
-  .gpt__cta {
-    flex-direction: column;
-    margin: 4rem 2rem;
-  }
-
-  .gpt__cta-content h3 {
-    font-size: 18px;
-    line-height: 32px;
-  }
-
-  .gpt__cta-btn button {
-    font-size: 14px;
-    line-height: 28px;
+  .gpt__blog-heading h1 {
+    font-size: 34px;
+    line-height: 42px;
   }
 }
