@@ -5,9 +5,7 @@ import "./footer.css";
 const Footer = () => (
   <div className="gpt__footer section__padding">
     <div className="gpt__footer-heading">
-      <h1 className="gradient__text">
-        Do you want to step in to the future before others
-      </h1>
+      <h1 className="gradient__text">Do you want to step in to the future</h1>
     </div>
 
     <div className="gpt__footer-btn">
